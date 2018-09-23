@@ -5,17 +5,18 @@
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
-      "test":"mocha server/**/*.test.js",
-      "test-watch": "nodemon --exec \"npm test\""
+    "test": "mocha server/**/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\""
   },
-  "engines":{
-     "node": "8.11.3"
+  "engines": {
+    "node": "8.11.3"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
+    "lodash": "^4.15.0",
     "mongodb": "^2.2.33",
     "mongoose": "^5.2.15"
   },
